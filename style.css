@@ -1,0 +1,114 @@
+/* Colors and fonts */
+body{
+	background-color:#F5F3F5 ;
+	color: #153243;	
+	font-family: calibri; 
+	font-size : 15px
+}
+h1{
+	color: #153243;	
+	font-family: Alkatra;
+	font-size: 30px;
+	font-weight: bolder;
+}
+h2{
+	font-weight: bolder;
+	font-size: 21px;
+}
+h3{
+	font-weight: bolder;
+	font-size: 19px;
+}
+a{
+	color: rgb(0, 0, 0);
+	text-decoration: underline;
+	transition: color 0.3s ease;}
+a:hover{
+	color: #723D46;
+}
+/*Style*/
+.img-circle{
+	border-radius: 52%;
+}
+.center{
+	text-align: center ;
+}
+/*Design*/
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width:760px){
+	.container{
+		width:600px
+	}
+}
+@media (max-width:620px){
+	.container{
+		width:480px;
+	}
+}
+@media (max-width:500px){
+	.container{
+		width:400px;
+	}
+}
+
+.card-white {
+	background-color: rgb(255, 255, 255);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+.card-white-bigger{
+	background-color: rgb(255, 255, 255);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 4px;
+	margin: 5px;
+	text-align: center;
+}
+.btn-grey{
+	background-color: #F5F3F5;
+	color: rgb(255, 255, 255);
+	paddding: 15px 20px;
+	border-radius: 4px;
+	margin: 0px 220px;
+}
+@media (max-width: 620px) {
+	.btn-grey{
+	margin: 0px 120px;
+}
+}
+.btn-grey:hover{
+	background-color: rgba(240, 240, 240, 0.5);
+}
+.list-inline{
+	list-style: none;
+	padding-left:0px;
+}
+.list-inline li{
+	display:inline;
+	padding:0px;
+}
+.list-inline i{
+	font-size: 60px;
+}
+.list-inline i:hover{
+	font-size: 70px;
+}
+/* little design adjustment*/
+#profile-pp{
+	width: 65px;
+}
+#introduction{
+	margin-top: 30px;
+}
+#facebook{
+	margin-left: 20px ;
+}
+#instagram{
+	margin-right: 20px;
+}
